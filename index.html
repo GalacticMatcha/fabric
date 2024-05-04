@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Fabric Duos Design</title>
+        <link rel="stylesheet" href="style.css">               
+    </head>
+    <body>
+
+    <div class="header">  
+        <div class="container">
+            <div class="navbar">
+                <div class="logo">
+                    <img src="pic/lowgo.png" width="150px">
+                </div>
+            <nav>
+                <ul id="MenuItems">
+                    <li><a href="">Home</a></li>
+                    <li><a href="">Products</a></li>
+                    <li><a href="">About</a></li>
+                    <li><a href="">Contact</a></li>
+                    <li><a href="">Account</a></li>
+                </ul>
+            </nav>
+            <img src="pic/image-removebg-preview (2).png" width="30px" height="30px">
+            <img src="pic/menu.png" class="menu-icon" onlick="menutoggle()">
+        </div>
+        <div class="row">
+            <div class="col-2">
+                <h1>True style, <br> Never Dies!!!</h1>
+                <p>Wearing these clothes feels like an undying sensation of fashion.</p>
+                <a href="" class="btn">Find More &#8594;</a>
+            </div>
+            <div class="col-2"> 
+                <img src="pic/bg-clothes-removebg-preview.png">
+            </div>
+        </div>
+        </div>
+      </div> 
+
+<!-------- featured categories -------->
+
+<div class="categories">
+    <div class="small-container">
+        <div class="row">
+            <div class="col-3">
+                <img src="pic/fit.jpg" alt="">
+            </div>
+            <div class="col-3">
+                <img src="pic/fit-2.jpg" alt="">
+            </div>
+            <div class="col-3">
+                <img src="pic/fit-3.jpg" alt="">
+            </div>    
+           </div>
+    </div>
+   
+</div>
+<!-------- featured products -------->
+    <div class="small-container">
+        <h2 class="title">Featured Products</h2>
+        <div class="row">
+            <div class="col-4">
+                <img src="pic/collared short sleeve.jpg">
+                <h4>Collared Short Sleeve</h4>
+                <div class="rating">
+                    <h4>★★★★☆</h4>
+                </div>
+                <p>₱450.00</p>
+            </div>
+             <div class="col-5">
+                <img src="pic/black abstract design.png"> 
+                <h4>Black Shirt Abstract</h4>
+                <div class="rating">
+                    <h4>★★★★☆</h4>
+                </div>
+                <p>₱450.00</p>
+            </div>
+             <div class="col-6">
+                <img src="pic/Good Vibes.png">
+                <h4>Good Vibes Hoodie</h4>
+                <div class="rating">
+                    <h4>★★★★☆</h4>
+                </div>
+                <p>₱700.00</p>
+            </div>
+             <div class="col-7">
+                <img src="pic/Floral Shirt.png">
+                <h4>Collared Short Sleeve</h4>
+                <div class="rating">
+                    <h4>★★★★☆</h4>
+                </div>
+                <p>₱400.00</p>
+            </div>
+             <div class="col-8">
+                <img src="pic/Varsity.jpg">
+                <h4>Collared Short Sleeve</h4>
+                <div class="rating">
+                    <h4>★★★★☆</h4>
+                </div>
+                <p>₱600.00</p>
+            </div>
+        </div>
+        <h2 class="title">Latest Products</h2>
+        <div class="row">
+            <div class="col-9">
+                <img src="pic/Blue Fashion.jpg">
+                <h4>Blue Hoodie</h4>
+                <div class="rating">
+                    <h4>★★★★☆</h4>
+                </div>
+                <p>₱600.00</p>
+            </div>
+             <div class="col-10">
+                <img src="pic/BnW Hoodie.jpg"> 
+                <h4>Black & White Hoodie</h4>
+                <div class="rating">
+                    <h4>★★★★☆</h4>
+                </div>
+                <p>₱600.00</p>
+            </div>
+             <div class="col-11">
+                <img src="pic/Red Fashion.jpg">
+                <h4>Red Hoodie</h4>
+                <div class="rating">
+                    <h4>★★★★☆</h4>
+                </div>
+                <p>₱600.00</p>
+            </div>
+             <div class="col-12">
+                <img src="pic/Chicago Jacket.jpg">
+                <h4>Chicago Varsity Jacket</h4>
+                <div class="rating">
+                    <h4>★★★★☆</h4>
+                </div>
+                <p>₱900.00</p>
+            </div> 
+             <div class="col-13">
+                <img src="pic/jersery.png">
+                <h4>Gilas Jersey</h4>
+                <div class="rating">
+                    <h4>★★★★☆</h4>
+                </div>
+                <p>₱1000</p>
+            </div>
+        </div>
+        
+    </div>
+
+
+    <!-------- footer -------->
+
+    <div class="footer">
+         <div class="container">
+               <div class="row">
+                    <div class="footer-col-1">
+                        <img src="pic/lowgo.png" width="110px">
+                        <p>Our Purpose Is To Bring Fashion TO This Generation.</p>
+                    </div>
+
+                    <div class="footer-col-2">
+                    <h3>Follow Us<h3/>
+                       <ul>
+                           <li>Facebook</li>
+                           <li>Instagram</li>
+                           <li>TikTok Shop</li>
+                       </ul>
+                </div>
+                    <div class="footer-col-3">
+                    <h3>Authors and Developers<h3/>
+                       <ul>
+                           <li>Matt Niño Bagnol</li>
+                           <li>Julius Andrei Torres</li>
+                       </ul>
+                </div>
+          </div>
+
+          <p class="copyright">Copyright 2024</p>
+
+    </div>
+</div>
+ 
+<!--------js for toggle now -------->
+
+      <script>
+         var MenuItems = document.getElementById("MenuItems");
+
+         MenuItems.style.maxHeight = "0px";
+
+         function menutoggle(){
+             if(MenuItems.style.maxHeight == "0px")
+                 [
+                    MenuItems.style.maxHeight = "200px"
+                 ] 
+             else 
+                 {
+                    MenuItems.style.maxHeight = "0px"
+                 }
+         
+                }
+
+
+
+    </body>
+</html>
